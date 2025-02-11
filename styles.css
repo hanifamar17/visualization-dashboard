@@ -1,0 +1,12 @@
+:root {
+  --bslib-sidebar-main-bg: #f8f8f8;
+}
+
+/* Pindahkan item terakhir di navbar ke kanan */
+.navbar-nav {
+  display: flex;
+  width: 100%;
+}
+.navbar-nav li:last-child {
+  margin-left: auto;
+}
